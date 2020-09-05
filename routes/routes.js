@@ -67,7 +67,7 @@ transactionRouter.patch('/update/:id', async (req,res) => {
   }
 });
 
-//DELETE
+//DELETE/
 transactionRouter.delete('/delete/:id', async (req,res) => {
   try{
     const id = req.params.id;
